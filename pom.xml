@@ -9,6 +9,7 @@
 		<module>emaillist03</module>
 		<module>guestbook03</module>
 	</modules>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -19,7 +20,7 @@
 					<url>${tomcat.deploy.url}</url>
 					<server>tomcat-douzone2023</server>
 				</configuration>
-			</plugin>
+			</plugin>	
 		</plugins>
 	</build>
 </project>
