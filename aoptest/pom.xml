@@ -11,19 +11,19 @@
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
-		<org.springframewok-version>5.3.25</org.springframewok-version>
+		<org.springframework-version>5.3.25</org.springframework-version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>${org.springframewok-version}</version>
+			<version>${org.springframework-version}</version>
 		</dependency>
 		<!-- spring aspect -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aspects</artifactId>
-			<version>${org.springframewok-version}</version>
+			<version>${org.springframework-version}</version>
 		</dependency>
 	</dependencies>
 	
