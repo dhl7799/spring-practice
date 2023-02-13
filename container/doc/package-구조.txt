@@ -1,0 +1,42 @@
+  src
+	|-- main
+		  |-- java
+				|-- 
+				|        |-- 
+		  |-- resources
+				|-- 
+						|-- 
+
+
+[src/main/java]
+	com.douzone.container.user
+		|-- User.java
+		|-- Friend.java
+	com.douzone.container.soundsystem
+		|--- CDPlayer.java
+		|--- CompactDisc.java
+	com.douzone.container.videosystem
+		|--- DVDPlayer.java
+		|--- DigitalVideoDisc.java
+		|--- 
+	com.douzone.container.config.user
+		|--- AppConfig.java	
+	com.douzone.container.config.soundsystem
+		|--- CDPlayerConfig.java
+	com.douzone.container.config.videosystem
+		|--- DVDPlayerConfig.java **
+
+[src/main/resources]
+	com.douzone.container.config.user
+		|--- applicationContext01.xml
+		|--- applicationContext02.xml
+	com.douzone.container.config.soundsystem
+		|--- applicationContext.xml
+
+
+[src/test/java]
+	com.douzone.container.soundsystem
+		|--- CDPlayerXmlConfigTest.java
+		|--- CDPlayerJavaConfigTest.java
+     com.douzone.container.videosystem
+		|--- DVDPlayerJavaConfigTest.java
